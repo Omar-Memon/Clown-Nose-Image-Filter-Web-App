@@ -1,0 +1,19 @@
+h3
+{
+    font-size: 30px !important;
+}
+.btn-success:hover
+{
+    background-color: turquoise;
+}
+canvas {
+    animation-name: OmarsAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes OmarsAnimation {
+
+    from {box-shadow: 1px 1px 45px red;}
+    to {box-shadow: 1px 1px 45px rgb(80, 151, 116);}
+}
